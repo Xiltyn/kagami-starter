@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"module": "commonjs",
+		"noImplicitAny": false,
+        "allowJs": true,
+        "outDir": "./dev/",
+		"preserveConstEnums": true,
+		"removeComments": true,
+		"target": "ES5"
+	},
+    "files": [
+      "typings/index.d.ts"
+    ],
+	"exclude": [
+		"node_modules"
+	]
+}
