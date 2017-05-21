@@ -2,7 +2,7 @@ import * as React from 'react';
 import {connect} from "react-redux";
 
 
-export default class OneDumbComponent extends React.Component <any, any> {
+export default class Home extends React.Component <any, any> {
 	public render() {
 		console.log( this.props.data );
 

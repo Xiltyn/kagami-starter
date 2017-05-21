@@ -1,3 +1,23 @@
+html body {
+	font-family: $fontRegular;
+	color: $darkGrey;
+}
+
+a {
+	color: $darkGrey;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	&:hover {
+		color: $lightGrey;
+	}
+	&:focus, &:visited {
+		color: $baseGrey;
+	}
+}
+
 h1, h2, h3, h4, h5, p {
 	margin: 0;
 	padding: 0 0 .8rem 0;
@@ -28,16 +48,4 @@ h5 {
 p {
 	font-size: 2.2rem;
 	line-height: 2rem;
-}
-.textHeader {
-	font-family: $fontBit;
-	font-size: 2.4rem;
-	letter-spacing: 0.2rem;
-	font-weight: 300;
-}
-.standardText {
-	font-size: 2.2rem;
-	line-height: 2rem;
-	font-weight: 100;
-	letter-spacing: 0.1rem;
 }

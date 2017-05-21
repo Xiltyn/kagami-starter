@@ -1,15 +1,52 @@
 @font-face {
-	font-family: 'blowbrushregular';
-	src: url('./../fonts/blowbrush-regular-webfont.woff2') format('woff2'),
-	url('./../fonts/blowbrush-regular-webfont.woff') format('woff');
+	font-family: 'open_sansregular';
+	src: url('./../fonts/opensans-regular-webfont.woff2') format('woff2'),
+	url('./../fonts/opensans-regular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
 }
+
 @font-face {
-	font-family: 'chathura';
-	src: url('./../fonts/chathura_regular-webfont.woff2') format('woff2'),
-	url('./../fonts/chathura_regular-webfont.woff') format('woff');
+	font-family: 'open_sanssemibold';
+	src: url('./../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+	url('./../fonts/opensans-semibold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sansbold';
+	src: url('./../fonts/opensans-bold-webfont.woff2') format('woff2'),
+	url('./../fonts/opensans-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sansitalic';
+	src: url('./../fonts/opensans-italic-webfont.woff2') format('woff2'),
+	url('./../fonts/opensans-italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sanslight';
+	src: url('./../fonts/opensans-light-webfont.woff2') format('woff2'),
+	url('./../fonts/opensans-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sanslight_italic';
+	src: url('./../fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+	url('./../fonts/opensans-lightitalic-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
