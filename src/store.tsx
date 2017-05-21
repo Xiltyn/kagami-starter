@@ -1,4 +1,4 @@
-import {createStore, applyMiddleware} from "redux";
+import {createStore, applyMiddleware, compose} from "redux";
 import logger from 'redux-logger';
 import {DummyData} from './dataInitializer';
 // Comment in in order to use promises in reducers ::
@@ -9,8 +9,20 @@ const initialState = {
 	data: DummyData
 };
 
+const middleware = [
+	logger
+];
+
+const composeEnhancers = (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
 export default createStore(
 	contentReducer,
 	initialState,
-	applyMiddleware(logger)
+	composeEnhancers(
+		applyMiddleware(...middleware)
+	)
 );
+
+
+
+
